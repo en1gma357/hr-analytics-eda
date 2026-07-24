@@ -104,6 +104,40 @@ The dataset contains information about job candidates, including:
 
 ---
 
+---
+
+## 📊 Visualizations
+
+### Target Distribution
+
+The target variable is imbalanced: most candidates are not looking for a new job.
+
+![Target Distribution](images/target_distribution.png)
+
+---
+
+### Target Rate by City Development Index
+
+Candidates from less developed cities demonstrate a noticeably higher target rate.
+
+![City Development Index](images/city_development_target_rate.png)
+
+---
+
+### Phik Correlation Matrix
+
+The Phik matrix highlights the strongest relationships between numerical, categorical features and the target.
+
+![Phik Correlation Matrix](images/phik_heatmap.png)
+
+---
+
+### Target Rate by Relevant Experience and Last Job Change
+
+This heatmap shows how target rate changes across combinations of `relevent_experience` and `last_new_job`.
+
+![Experience and Last Job](images/experience_last_job_target_rate.png)
+
 ## 📁 Project Structure
 
 ```text
